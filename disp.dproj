@@ -91,8 +91,12 @@
         <AppEnableHighDPI>true</AppEnableHighDPI>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.2;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
         <Debugger_RunParams>/U:xxc /P:2302 /test</Debugger_RunParams>
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <VerInfo_Build>2</VerInfo_Build>
+        <DCC_ExeOutput>C:\WORK\ARMADA\CRM\EXE\</DCC_ExeOutput>
+        <UsePackages>true</UsePackages>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
@@ -379,6 +383,38 @@
                     <Source Name="MainSource">disp.dpr</Source>
                 </Source>
                 <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\DataExplorerDBXPlugin250.bpl">DBExpress Data Explorer Integration</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\DataExplorerDBXPluginInt250.bpl">DBExpress InterBase Data Explorer Integration</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcldbx250.bpl">Embarcadero dbExpress Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclsoap250.bpl">Embarcadero SOAP Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapClient250.bpl">Embarcadero DBExpress DataSnap Client Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapCommon250.bpl">Embarcadero DBExpress DataSnap Common Design package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapServer250.bpl">Embarcadero DBExpress DataSnap Server Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclfmxstd250.bpl">Embarcadero FMX Standard Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclFMXFireDAC250.bpl">Embarcadero FMX FireDAC Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclbindcompdbx250.bpl">LiveBindings Expression Components DbExpress</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclsoapmidas250.bpl">Embarcadero SOAP Midas Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclsoapserver250.bpl">Embarcadero SOAP Server Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapNativeClient250.bpl">Embarcadero DBExpress DataSnap Native Client Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\DataExplorerDBXPluginEnt250.bpl">DBExpress Enterprise Data Explorer Integration</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapConnectors250.bpl">Embarcadero DataSnap Connector Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapIndy10ServerTransport250.bpl">Embarcadero DBExpress DataSnap Server Transport Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapNativeServer250.bpl">Embarcadero DBExpress DataSnap Native Server Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapProviderClient250.bpl">Embarcadero DBExpress DataSnap Provider Client Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclDataSnapWebBrokerServer250.bpl">Embarcadero DBExpress DataSnap Web Broker Server Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\fmxstyledesigner250.bpl">Embarcadero Style Designer Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclbcbsmp250.bpl">C++Builder Sample Components Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcldbxcds250.bpl">Embarcadero SimpleDataset Component (DBX)</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclCloudService250.bpl">Embarcadero Cloud management components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclemsclient250.bpl">Embarcadero EMS Client Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclemsclientfiredac250.bpl">Embarcadero EMS Client FireDAC Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclFMXtee9250.bpl">TeeChart Lite FMX Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcltee9250.bpl">TeeChart Standard VCL Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\dcldxADOServerModeRS25.bpl">ADO Data Source for ExpressDataController Server Mode by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\dcldxDBXServerModeRS25.bpl">dbExpress Data Source for ExpressDataController Server Mode by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\dcldxAuthorizationAgentsRS25.bpl">Authorization Agents for Web Services by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k250.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp250.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k250.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp250.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
                 </Excluded_Packages>
