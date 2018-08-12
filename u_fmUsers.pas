@@ -10,13 +10,8 @@ uses
   cxGridCustomTableView, cxGridTableView, cxGridLevel, cxGridCustomView,
   cxGridDBTableView, cxGrid,
   IB_Services, StdCtrls, FIBSQLMonitor, FIBQuery, pFIBQuery, FIBDatabase,
-  pFIBDatabase, ShellApi, CheckLst, cxNavigator, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  dxSkinscxPCPainter, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine;
+  pFIBDatabase, ShellApi, CheckLst, cxNavigator,
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems;
 
 type
   TfmUsers = class(TfmMDIChild)

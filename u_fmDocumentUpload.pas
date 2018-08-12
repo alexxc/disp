@@ -8,13 +8,7 @@ uses
   ShlObj, cxShellCommon, cxGraphics, cxControls, cxLookAndFeels,
   cxLookAndFeelPainters, cxContainer, cxEdit, cxShellTreeView, cxShellListView,
   cxSplitter, ExtCtrls, cxGroupBox, cxTextEdit, cxMaskEdit, cxDropDownEdit,
-  cxImageComboBox, cxLabel, cxTreeView, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, FIBDatabase, pFIBDatabase, cxCustomListBox,
+  cxImageComboBox, cxLabel, cxTreeView, FIBDatabase, pFIBDatabase, cxCustomListBox,
   cxCheckListBox;
 
 type

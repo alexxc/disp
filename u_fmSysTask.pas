@@ -10,13 +10,7 @@ uses
   cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
   cxGrid, u_DM, cxImageComboBox, cxMemo, FIBDatabase, pFIBDatabase, cxCalendar,
   cxTextEdit, ExtCtrls, FIBQuery, pFIBQuery, cxDropDownEdit, cxNavigator,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine,
-  dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  dxSkinscxPCPainter;
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems;
 
 type
   TfmSysTask = class(TfmMDIChild)

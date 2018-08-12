@@ -12,12 +12,7 @@ uses
   cxImageComboBox, cxTextEdit, DateUtils, cxCurrencyEdit, dxBarExtItems,
   cxContainer, cxGroupBox, cxLabel, cxDBLabel, cxMemo, cxDBEdit,
   cxPCdxBarPopupMenu, cxPC, u_frameJournal, cxNavigator, dxBarBuiltInMenu,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, FIBQuery, pFIBQuery, FIBDatabase,
+  FIBQuery, pFIBQuery, FIBDatabase,
   pFIBDatabase, cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type

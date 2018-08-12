@@ -4,7 +4,7 @@ inherited fmAutomobile: TfmAutomobile
   ClientWidth = 1041
   OnCreate = FormCreate
   ExplicitWidth = 1057
-  ExplicitHeight = 667
+  ExplicitHeight = 668
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -17,7 +17,7 @@ inherited fmAutomobile: TfmAutomobile
     Width = 1041
     Height = 351
     Align = alTop
-    TabOrder = 5
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       OnDblClick = cxGrid1DBTableView1DblClick
       Navigator.Buttons.CustomButtons = <>
@@ -170,7 +170,7 @@ inherited fmAutomobile: TfmAutomobile
     Width = 1041
     Height = 242
     Align = alClient
-    TabOrder = 6
+    TabOrder = 2
     Properties.ActivePage = tabJournal
     Properties.CustomButtons.Buttons = <>
     ClientRectBottom = 236
@@ -208,11 +208,7 @@ inherited fmAutomobile: TfmAutomobile
           ExplicitWidth = 1033
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BarJournal: TdxBar
             ItemLinks = <
               item
@@ -271,11 +267,7 @@ inherited fmAutomobile: TfmAutomobile
           end
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BMBar1: TdxBar
             ItemLinks = <
               item
@@ -321,11 +313,7 @@ inherited fmAutomobile: TfmAutomobile
           ExplicitHeight = 178
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
         end
       end
     end
@@ -341,11 +329,7 @@ inherited fmAutomobile: TfmAutomobile
     ExplicitWidth = 5
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

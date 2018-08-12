@@ -3,11 +3,12 @@ inherited fmAutoJournal: TfmAutoJournal
   ClientHeight = 579
   ClientWidth = 1216
   ExplicitWidth = 1232
-  ExplicitHeight = 617
+  ExplicitHeight = 618
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 1216
+    ExplicitWidth = 1216
   end
   object Grid: TcxGrid [1]
     Left = 0
@@ -15,7 +16,7 @@ inherited fmAutoJournal: TfmAutoJournal
     Width = 1216
     Height = 548
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     ExplicitLeft = 392
     ExplicitTop = 272
     ExplicitWidth = 250

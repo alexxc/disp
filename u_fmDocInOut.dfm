@@ -41,11 +41,12 @@ inherited fmDocInOut: TfmDocInOut
     000000000000000000000000000000010000000300000003000000030000}
   OnCreate = FormCreate
   ExplicitWidth = 1228
-  ExplicitHeight = 637
+  ExplicitHeight = 638
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 1212
+    ExplicitWidth = 1212
   end
   object Tabs: TcxTabControl [1]
     Left = 0
@@ -53,7 +54,7 @@ inherited fmDocInOut: TfmDocInOut
     Width = 1212
     Height = 568
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     Properties.CustomButtons.Buttons = <>
     Properties.TabIndex = 1
     Properties.Tabs.Strings = (
@@ -159,7 +160,6 @@ inherited fmDocInOut: TfmDocInOut
       TabOrder = 1
       ExplicitLeft = 40
       ExplicitTop = 456
-      ExplicitWidth = 185
       Height = 105
       Width = 1204
       object cxGrid1: TcxGrid
@@ -221,6 +221,7 @@ inherited fmDocInOut: TfmDocInOut
       AlignSplitter = salBottom
       Control = gbInfo
       ExplicitTop = 449
+      ExplicitWidth = 5
     end
   end
   inherited trRead: TpFIBTransaction

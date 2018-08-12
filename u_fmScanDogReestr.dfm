@@ -3,7 +3,7 @@ inherited fmScanDogReestr: TfmScanDogReestr
   ClientHeight = 670
   ClientWidth = 1206
   ExplicitWidth = 1222
-  ExplicitHeight = 708
+  ExplicitHeight = 709
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmScanDogReestr: TfmScanDogReestr
     Width = 1206
     Height = 639
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridDBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsDATA
@@ -125,11 +125,7 @@ inherited fmScanDogReestr: TfmScanDogReestr
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

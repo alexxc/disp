@@ -3,11 +3,12 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
   ClientHeight = 244
   ClientWidth = 557
   ExplicitWidth = 573
-  ExplicitHeight = 282
+  ExplicitHeight = 283
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 557
+    ExplicitWidth = 557
   end
   object cxLabel1: TcxLabel [1]
     Left = 16
@@ -21,7 +22,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     DataBinding.DataField = 'ADDRESS_NAME'
     DataBinding.DataSource = dsSERVICES
     Enabled = False
-    TabOrder = 6
+    TabOrder = 4
     Width = 515
   end
   object cxLabel2: TcxLabel [3]
@@ -36,7 +37,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     DataBinding.DataField = 'QTY_MAT'
     DataBinding.DataSource = dsSERVICES
     Enabled = False
-    TabOrder = 8
+    TabOrder = 6
     Width = 36
   end
   object cxLabel3: TcxLabel [5]
@@ -51,7 +52,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     DataBinding.DataField = 'QTY_REPLACE'
     DataBinding.DataSource = dsSERVICES
     Enabled = False
-    TabOrder = 10
+    TabOrder = 8
     Width = 41
   end
   object cxLabel4: TcxLabel [7]
@@ -66,7 +67,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     DataBinding.DataField = 'PRICE_REPLACE'
     DataBinding.DataSource = dsSERVICES
     Enabled = False
-    TabOrder = 12
+    TabOrder = 11
     Width = 98
   end
   object cxLabel5: TcxLabel [9]
@@ -96,7 +97,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     DataBinding.DataField = 'SERVICE_DESCRIPTION'
     DataBinding.DataSource = dsSERVICES
     Enabled = False
-    TabOrder = 16
+    TabOrder = 10
     Width = 515
   end
   object cxLabel7: TcxLabel [13]
@@ -110,7 +111,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
     Top = 199
     DataBinding.DataField = 'DOC_DESCRIPTION'
     DataBinding.DataSource = dsSERVICES
-    TabOrder = 18
+    TabOrder = 13
     Width = 515
   end
   inherited trRead: TpFIBTransaction
@@ -121,11 +122,7 @@ inherited fmAddressServiceEdit: TfmAddressServiceEdit
   end
   inherited BM: TdxBarManager
     Left = 216
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited bbRefresh: TdxBarButton
       OnClick = bbRefreshClick
     end

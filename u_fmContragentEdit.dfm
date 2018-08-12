@@ -8,7 +8,7 @@ inherited fmContragentEdit: TfmContragentEdit
   Visible = False
   OnCreate = FormCreate
   ExplicitWidth = 1094
-  ExplicitHeight = 689
+  ExplicitHeight = 690
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -32,6 +32,10 @@ inherited fmContragentEdit: TfmContragentEdit
     object tabMain: TcxTabSheet
       Caption = #1054#1089#1085#1086#1074#1085#1099#1077' '#1076#1072#1085#1085#1099#1077
       ImageIndex = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel1: TcxLabel
         Left = 14
         Top = 51
@@ -672,6 +676,10 @@ inherited fmContragentEdit: TfmContragentEdit
     object tabRequest: TcxTabSheet
       Caption = #1047#1072#1103#1074#1082#1072
       ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel35: TcxLabel
         Left = 13
         Top = 8
@@ -1157,6 +1165,10 @@ inherited fmContragentEdit: TfmContragentEdit
     object tabAttr: TcxTabSheet
       Caption = #1056#1077#1082#1074#1080#1079#1080#1090#1099' '#1076#1083#1103' '#1076#1086#1082#1091#1084#1077#1085#1090#1086#1074
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel23: TcxLabel
         Left = 536
         Top = 31
@@ -1679,6 +1691,7 @@ inherited fmContragentEdit: TfmContragentEdit
         HotZoneClassName = 'TcxSimpleStyle'
         AlignSplitter = salTop
         Control = gridContracts
+        ExplicitWidth = 5
       end
     end
     object tabObespech: TcxTabSheet
@@ -1711,6 +1724,10 @@ inherited fmContragentEdit: TfmContragentEdit
     object tabLAW: TcxTabSheet
       Caption = #1057#1091#1076#1099
       ImageIndex = 5
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object LAW_IS_RESHENIE: TcxDBCheckBox
         Left = 32
         Top = 32
@@ -2497,7 +2514,7 @@ inherited fmContragentEdit: TfmContragentEdit
     qoStartTransaction = True
   end
   object FR: TfrxReport
-    Version = '5.6.1'
+    Version = '6.0.7'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

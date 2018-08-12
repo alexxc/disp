@@ -3,7 +3,7 @@ inherited fmUpgradeEXE: TfmUpgradeEXE
   ClientHeight = 446
   ClientWidth = 1035
   ExplicitWidth = 1051
-  ExplicitHeight = 484
+  ExplicitHeight = 485
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmUpgradeEXE: TfmUpgradeEXE
     Width = 1035
     Height = 415
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsEXE
@@ -106,11 +106,7 @@ inherited fmUpgradeEXE: TfmUpgradeEXE
   inherited BM: TdxBarManager
     Left = 216
     Top = 128
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

@@ -4,7 +4,7 @@ inherited fmSysTask: TfmSysTask
   ClientWidth = 1059
   OnCreate = FormCreate
   ExplicitWidth = 1075
-  ExplicitHeight = 427
+  ExplicitHeight = 428
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -17,7 +17,7 @@ inherited fmSysTask: TfmSysTask
     Width = 1059
     Height = 358
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridView: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsTask
@@ -146,11 +146,7 @@ inherited fmSysTask: TfmSysTask
   inherited BM: TdxBarManager
     Left = 224
     Top = 176
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

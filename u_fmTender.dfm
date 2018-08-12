@@ -6,10 +6,8 @@ inherited fmTender: TfmTender
   ClientHeight = 668
   ClientWidth = 939
   OnCreate = FormCreate
-  ExplicitLeft = 434
-  ExplicitTop = 263
   ExplicitWidth = 955
-  ExplicitHeight = 706
+  ExplicitHeight = 707
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -22,7 +20,7 @@ inherited fmTender: TfmTender
     Width = 939
     Height = 637
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     Properties.ActivePage = tabMain
     Properties.CustomButtons.Buttons = <>
     ClientRectBottom = 631
@@ -1058,11 +1056,7 @@ inherited fmTender: TfmTender
           ExplicitWidth = 931
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BarJournal: TdxBar
             ItemLinks = <
               item
@@ -1104,11 +1098,7 @@ inherited fmTender: TfmTender
           ExplicitHeight = 573
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BMBar1: TdxBar
             ItemLinks = <
               item
@@ -1130,6 +1120,10 @@ inherited fmTender: TfmTender
     object tabSystem: TcxTabSheet
       Caption = 'tabSystem'
       ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object GridContragentsPopup: TcxGrid
         Left = 72
         Top = 280
@@ -1221,11 +1215,7 @@ inherited fmTender: TfmTender
           ExplicitHeight = 573
         end
         inherited BMobespech: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
         end
       end
     end
@@ -1233,11 +1223,7 @@ inherited fmTender: TfmTender
   inherited BM: TdxBarManager
     Left = 896
     Top = 320
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
   end
   object dsOrganizations: TDataSource
     DataSet = Organizations

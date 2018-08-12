@@ -8,15 +8,11 @@ uses
   cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter,
   cxData, cxDataStorage, cxEdit, DB, cxDBData, cxPCdxBarPopupMenu, cxPC,
   cxGridLevel, cxGridCustomView, cxGridCustomTableView, cxGridTableView,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxNavigator, cxImageComboBox,
+  cxNavigator, cxImageComboBox,
   cxCurrencyEdit, cxCheckBox, dxBarBuiltInMenu, FIBDataSet, pFIBDataSet,
   dxBarExtItems, cxSplitter, u_frameJournal, cxGridBandedTableView,
-  cxGridDBBandedTableView, cxGridDBTableView, cxGrid, FIBDatabase, pFIBDatabase;
+  cxGridDBBandedTableView, cxGridDBTableView, cxGrid, FIBDatabase, pFIBDatabase,
+  cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TfmContragentCooperation = class(TfmMDIChild)

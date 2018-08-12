@@ -4,7 +4,7 @@ inherited fmInvoiceAnalize: TfmInvoiceAnalize
   ClientWidth = 926
   OnCreate = FormCreate
   ExplicitWidth = 942
-  ExplicitHeight = 572
+  ExplicitHeight = 573
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -167,6 +167,10 @@ inherited fmInvoiceAnalize: TfmInvoiceAnalize
     object tabInvoice: TcxTabSheet
       Caption = #1057#1095#1077#1090#1072
       ImageIndex = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxGrid2: TcxGrid
         Left = 0
         Top = 0
@@ -277,6 +281,10 @@ inherited fmInvoiceAnalize: TfmInvoiceAnalize
     object tabService: TcxTabSheet
       Caption = #1052#1072#1088#1096#1088#1091#1090#1085#1099#1077' '#1082#1072#1088#1090#1099
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxGrid3: TcxGrid
         Left = 0
         Top = 0
@@ -387,6 +395,7 @@ inherited fmInvoiceAnalize: TfmInvoiceAnalize
     HotZoneClassName = 'TcxMediaPlayer9Style'
     AlignSplitter = salBottom
     Control = Pages
+    ExplicitWidth = 5
   end
   inherited BM: TdxBarManager
     PixelsPerInch = 96

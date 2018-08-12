@@ -40,7 +40,7 @@ inherited fmMATReestr: TfmMATReestr
     0000800F00008007000080030000800100008001000080010000800100008001
     000080010000800100008001000080010000800100008001000080010000}
   ExplicitWidth = 1516
-  ExplicitHeight = 739
+  ExplicitHeight = 740
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -53,7 +53,7 @@ inherited fmMATReestr: TfmMATReestr
     Width = 633
     Height = 670
     Align = alLeft
-    TabOrder = 5
+    TabOrder = 1
     object viewMat: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsDATA
@@ -178,7 +178,7 @@ inherited fmMATReestr: TfmMATReestr
     Width = 862
     Height = 670
     Align = alClient
-    TabOrder = 7
+    TabOrder = 3
     LookAndFeel.Kind = lfOffice11
     LookAndFeel.NativeStyle = False
     object GridDocumentsDBTableView1: TcxGridDBTableView
@@ -279,11 +279,7 @@ inherited fmMATReestr: TfmMATReestr
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

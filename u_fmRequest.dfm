@@ -7,7 +7,7 @@ inherited fmRequest: TfmRequest
   ClientWidth = 807
   Position = poOwnerFormCenter
   ExplicitWidth = 823
-  ExplicitHeight = 717
+  ExplicitHeight = 718
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -31,6 +31,10 @@ inherited fmRequest: TfmRequest
     object tabMain: TcxTabSheet
       Caption = #1054#1089#1085#1086#1074#1085#1072#1103' '#1080#1085#1092#1086#1088#1084#1072#1094#1080#1103
       ImageIndex = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel1: TcxLabel
         Left = 13
         Top = 3
@@ -301,6 +305,9 @@ inherited fmRequest: TfmRequest
           Height = 31
           Align = dalTop
           BarManager = BM
+          ExplicitLeft = 2
+          ExplicitTop = -1
+          ExplicitWidth = 762
         end
       end
       object EMAIL: TcxDBTextEdit
@@ -677,6 +684,10 @@ inherited fmRequest: TfmRequest
     object tabSYSTEM: TcxTabSheet
       Caption = 'tabSYSTEM'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object GridContragentsPopup: TcxGrid
         Left = 72
         Top = 280

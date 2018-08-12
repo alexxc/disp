@@ -7,7 +7,7 @@ inherited fmDogUpload: TfmDogUpload
   ClientWidth = 937
   OnCreate = FormCreate
   ExplicitWidth = 943
-  ExplicitHeight = 621
+  ExplicitHeight = 622
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -27,7 +27,7 @@ inherited fmDogUpload: TfmDogUpload
     RightClickSelect = True
     ShowHint = False
     ShowInfoTips = True
-    TabOrder = 5
+    TabOrder = 1
     OnChange = TreeChange
     ExplicitTop = 236
   end
@@ -38,7 +38,7 @@ inherited fmDogUpload: TfmDogUpload
     Height = 207
     Align = alTop
     BevelOuter = bvNone
-    TabOrder = 6
+    TabOrder = 2
     object cxLabel2: TcxLabel
       AlignWithMargins = True
       Left = 4
@@ -388,11 +388,7 @@ inherited fmDogUpload: TfmDogUpload
   inherited BM: TdxBarManager
     Left = 104
     Top = 328
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

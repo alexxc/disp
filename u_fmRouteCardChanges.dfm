@@ -8,7 +8,7 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
   Position = poOwnerFormCenter
   OnCreate = FormCreate
   ExplicitWidth = 1078
-  ExplicitHeight = 451
+  ExplicitHeight = 456
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -21,7 +21,7 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
     Align = alLeft
     Caption = ' '#1060#1072#1082#1090#1080#1095#1077#1089#1082#1080#1077' '#1076#1072#1085#1085#1099#1077' '
     PanelStyle.Active = True
-    TabOrder = 5
+    TabOrder = 1
     Height = 386
     Width = 402
     object cxGroupBox1: TcxGroupBox
@@ -37,6 +37,9 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
       Style.Font.Style = []
       Style.IsFontAssigned = True
       TabOrder = 0
+      ExplicitLeft = 2
+      ExplicitTop = 2
+      ExplicitWidth = 398
       Height = 206
       Width = 396
       object cxLabel2: TcxLabel
@@ -222,6 +225,10 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
       Style.Font.Style = []
       Style.IsFontAssigned = True
       TabOrder = 1
+      ExplicitLeft = 2
+      ExplicitTop = 208
+      ExplicitWidth = 398
+      ExplicitHeight = 176
       Height = 174
       Width = 396
       object FACT_DESCRIPTION: TcxDBMemo
@@ -246,7 +253,7 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
     Width = 660
     Height = 386
     Align = alClient
-    TabOrder = 6
+    TabOrder = 2
     object GroupOld: TcxGroupBox
       Left = 1
       Top = 240
@@ -381,14 +388,10 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
         end
         inherited dxBarDockControl1: TdxBarDockControl
           Width = 652
-          ExplicitWidth = 652
+          ExplicitWidth = 654
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BarJournal: TdxBar
             ItemLinks = <
               item
@@ -434,11 +437,7 @@ inherited fmRouteCardChanges: TfmRouteCardChanges
   inherited BM: TdxBarManager
     Left = 148
     Top = 336
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

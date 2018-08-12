@@ -6,18 +6,13 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_fmMDIChild, dxBar, cxClasses, DB, FIBDataSet, pFIBDataSet,
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
-  cxDataStorage, cxEdit, cxNavigator, cxDBData, cxImageComboBox, cxCalendar,
-  cxTextEdit, cxCurrencyEdit, dxBarExtItems, cxBarEditItem, cxGridDBTableView,
-  cxSplitter, cxGridLevel, cxGridCustomTableView, cxGridTableView,
   cxGridBandedTableView, cxGridDBBandedTableView, cxGridCustomView, cxGrid,
   FIBDatabase, pFIBDatabase,
-  cxDataControllerConditionalFormattingRulesManagerDialog;
+  cxDataControllerConditionalFormattingRulesManagerDialog, cxCustomData,
+  cxFilter, cxData, cxDataStorage, cxEdit, cxNavigator, cxDBData,
+  cxImageComboBox, cxCalendar, cxTextEdit, cxCurrencyEdit, cxBarEditItem,
+  dxBarExtItems, cxGridDBTableView, cxSplitter, cxGridLevel,
+  cxGridCustomTableView, cxGridTableView;
 
 type
   TfmDocActInOutReestr = class(TfmMDIChild)

@@ -4,13 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, u_fmMDIChild, dxSkinsCore, dxSkinBlack, dxSkinBlue,
-  dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue, dxSkinsdxBarPainter, cxGraphics, cxControls,
-  cxLookAndFeels, cxLookAndFeelPainters, dxSkinscxPCPainter, dxBarBuiltInMenu,
+  Dialogs, u_fmMDIChild, dxBarBuiltInMenu,
   cxContainer, cxEdit, cxStyles, cxSchedulerStorage, cxSchedulerCustomControls,
   cxSchedulerDateNavigator, cxCustomData, cxFilter, cxData, cxDataStorage,
   cxNavigator, Data.DB, cxDBData, cxImageComboBox, cxDBLookupComboBox,
@@ -18,7 +12,9 @@ uses
   cxButtons, cxLabel, cxTextEdit, cxMaskEdit, cxDropDownEdit, cxLookupEdit,
   cxDBLookupEdit, cxRadioGroup, cxGridLevel, cxGridCustomTableView,
   cxGridTableView, cxGridDBTableView, cxClasses, cxGridCustomView, cxGrid,
-  cxDateNavigator, cxGroupBox, cxPC, dxBar, FIBDatabase, pFIBDatabase;
+  cxDateNavigator, cxGroupBox, cxPC, dxBar, FIBDatabase, pFIBDatabase,
+  cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems;
 
 type
   TDayInfo = record

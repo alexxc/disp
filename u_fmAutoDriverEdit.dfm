@@ -4,7 +4,7 @@ inherited fmAutoDriverEdit: TfmAutoDriverEdit
   ClientHeight = 261
   ClientWidth = 390
   ExplicitWidth = 396
-  ExplicitHeight = 289
+  ExplicitHeight = 290
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -22,7 +22,7 @@ inherited fmAutoDriverEdit: TfmAutoDriverEdit
     Properties.MaxLength = 300
     Properties.OnChange = DRIVER_NAMEPropertiesEditValueChanged
     Properties.OnEditValueChanged = DRIVER_NAMEPropertiesEditValueChanged
-    TabOrder = 6
+    TabOrder = 4
     Width = 321
   end
   object cxLabel2: TcxLabel [3]
@@ -40,7 +40,7 @@ inherited fmAutoDriverEdit: TfmAutoDriverEdit
     Properties.ListColumns = <>
     Properties.OnChange = DRIVER_NAMEPropertiesEditValueChanged
     Properties.OnEditValueChanged = DRIVER_NAMEPropertiesEditValueChanged
-    TabOrder = 8
+    TabOrder = 7
     Width = 233
   end
   object IS_ACTIVE: TcxCheckBox [5]
@@ -66,7 +66,7 @@ inherited fmAutoDriverEdit: TfmAutoDriverEdit
     Properties.MaxLength = 300
     Properties.OnChange = DRIVER_NAMEPropertiesEditValueChanged
     Properties.OnEditValueChanged = DRIVER_NAMEPropertiesEditValueChanged
-    TabOrder = 11
+    TabOrder = 5
     Width = 321
   end
   object cxLabel4: TcxLabel [8]
@@ -80,17 +80,13 @@ inherited fmAutoDriverEdit: TfmAutoDriverEdit
     Properties.MaxLength = 300
     Properties.OnChange = DRIVER_NAMEPropertiesEditValueChanged
     Properties.OnEditValueChanged = DRIVER_NAMEPropertiesEditValueChanged
-    TabOrder = 13
+    TabOrder = 8
     Width = 321
   end
   inherited BM: TdxBarManager
     Left = 488
     Top = 216
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited bbRefresh: TdxBarButton
       OnClick = bbRefreshClick
     end

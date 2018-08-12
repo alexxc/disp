@@ -3,7 +3,7 @@ inherited fmUsers: TfmUsers
   ClientHeight = 626
   ClientWidth = 1049
   ExplicitWidth = 1065
-  ExplicitHeight = 664
+  ExplicitHeight = 665
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmUsers: TfmUsers
     Width = 1049
     Height = 595
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridUsersDBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.Summary.DefaultGroupSummaryItems = <>
@@ -121,11 +121,7 @@ inherited fmUsers: TfmUsers
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

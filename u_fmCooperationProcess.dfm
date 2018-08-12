@@ -3,7 +3,7 @@ inherited fmCooperationProcess: TfmCooperationProcess
   ClientHeight = 582
   ClientWidth = 1142
   ExplicitWidth = 1158
-  ExplicitHeight = 620
+  ExplicitHeight = 621
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmCooperationProcess: TfmCooperationProcess
     Width = 1142
     Height = 551
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridTableView: TcxGridDBBandedTableView
       OnDblClick = GridTableViewDblClick
       Navigator.Buttons.CustomButtons = <>
@@ -168,11 +168,7 @@ inherited fmCooperationProcess: TfmCooperationProcess
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

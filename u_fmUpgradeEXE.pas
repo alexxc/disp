@@ -9,14 +9,9 @@ uses
   cxDataStorage, cxEdit, DB, cxDBData, FIBDataSet, pFIBDataSet, cxGridLevel,
   cxClasses, cxGridCustomView, cxGridCustomTableView, cxGridTableView,
   cxGridDBTableView, cxGrid, dxBar, cxTextEdit, cxCurrencyEdit, cxCalendar,
-  u_DM, crc32, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin,
-  dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxNavigator, FIBDatabase,
-  pFIBDatabase, FIBQuery, pFIBQuery;
+  u_DM, crc32, cxNavigator, FIBDatabase,
+  pFIBDatabase, FIBQuery, pFIBQuery,
+  cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TfmUpgradeEXE = class(TfmModal)

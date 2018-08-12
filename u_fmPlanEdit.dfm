@@ -4,7 +4,7 @@ inherited fmPlanEdit: TfmPlanEdit
   ClientWidth = 583
   OnCreate = FormCreate
   ExplicitWidth = 599
-  ExplicitHeight = 355
+  ExplicitHeight = 356
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -518,6 +518,10 @@ inherited fmPlanEdit: TfmPlanEdit
       Tag = -1
       Caption = #1046#1091#1088#1085#1072#1083
       ImageIndex = 7
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object gbJournal: TcxGroupBox
         Left = 0
         Top = 79
@@ -611,7 +615,6 @@ inherited fmPlanEdit: TfmPlanEdit
           Transparent = True
           Height = 21
           Width = 51
-          AnchorX = 169
         end
         object cxDBLabel3: TcxDBLabel
           Left = 175

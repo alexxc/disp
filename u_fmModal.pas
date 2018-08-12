@@ -5,12 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_fmMDIChild, dxBar, cxClasses, u_fmForm, u_DM, FIBDatabase,
-  pFIBDatabase, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinsdxBarPainter,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue;
+  pFIBDatabase;
 
 type
   TfmModal = class(TfmForm)

@@ -5,7 +5,7 @@ inherited fmRequestReestr: TfmRequestReestr
   ClientHeight = 742
   ClientWidth = 1360
   ExplicitWidth = 1376
-  ExplicitHeight = 780
+  ExplicitHeight = 781
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -162,6 +162,7 @@ inherited fmRequestReestr: TfmRequestReestr
     HotZoneClassName = 'TcxMediaPlayer9Style'
     AlignSplitter = salBottom
     Control = Pages
+    ExplicitWidth = 5
   end
   object Pages: TcxPageControl [3]
     Left = 0
@@ -180,6 +181,10 @@ inherited fmRequestReestr: TfmRequestReestr
       Caption = #1057#1086#1089#1090#1072#1074
       ImageIndex = 0
       TabVisible = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxGrid1: TcxGrid
         Left = 0
         Top = 0
@@ -334,6 +339,10 @@ inherited fmRequestReestr: TfmRequestReestr
     object tabDocuments: TcxTabSheet
       Caption = #1044#1086#1082#1091#1084#1077#1085#1090#1099
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       inline frameDocuments: TframeDocuments
         Left = 0
         Top = 0

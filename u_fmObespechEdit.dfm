@@ -3,7 +3,7 @@ inherited fmObespechEdit: TfmObespechEdit
   ClientHeight = 262
   ClientWidth = 327
   ExplicitWidth = 343
-  ExplicitHeight = 300
+  ExplicitHeight = 301
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -45,7 +45,7 @@ inherited fmObespechEdit: TfmObespechEdit
     Properties.ImmediatePost = True
     Properties.SaveTime = False
     Properties.ShowTime = False
-    TabOrder = 10
+    TabOrder = 9
     Width = 121
   end
   object UNLOCK_DATE: TcxDBDateEdit [7]
@@ -66,7 +66,7 @@ inherited fmObespechEdit: TfmObespechEdit
     Top = 97
     DataBinding.DataField = 'AMOUNT'
     DataBinding.DataSource = dsOBESPECH
-    TabOrder = 12
+    TabOrder = 6
     Width = 121
   end
   object USER_ID: TcxDBLookupComboBox [9]
@@ -79,7 +79,7 @@ inherited fmObespechEdit: TfmObespechEdit
     Properties.ImmediateDropDownWhenActivated = True
     Properties.ImmediatePost = True
     Properties.ListColumns = <>
-    TabOrder = 13
+    TabOrder = 7
     Width = 121
   end
   object DESCRIPTION: TcxDBMemo [10]
@@ -87,7 +87,7 @@ inherited fmObespechEdit: TfmObespechEdit
     Top = 151
     DataBinding.DataField = 'DESCRIPTION'
     DataBinding.DataSource = dsOBESPECH
-    TabOrder = 14
+    TabOrder = 8
     Height = 90
     Width = 289
   end
@@ -98,7 +98,7 @@ inherited fmObespechEdit: TfmObespechEdit
     Height = 20
     Hint = #1044#1086#1073#1072#1074#1080#1090#1100' '#1075#1086#1076' '#1082' '#1076#1072#1090#1077' '#1088#1072#1079#1084#1077#1085#1080#1103
     Caption = '+1'
-    TabOrder = 15
+    TabOrder = 10
     OnClick = cxButton1Click
   end
   inherited trRead: TpFIBTransaction
@@ -108,11 +108,7 @@ inherited fmObespechEdit: TfmObespechEdit
   inherited BM: TdxBarManager
     Left = 24
     Top = 192
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited bbRefresh: TdxBarButton
       OnClick = bbRefreshClick
     end

@@ -3,7 +3,7 @@ inherited fmBalance: TfmBalance
   ClientHeight = 621
   ClientWidth = 1360
   ExplicitWidth = 1376
-  ExplicitHeight = 659
+  ExplicitHeight = 660
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -18,7 +18,7 @@ inherited fmBalance: TfmBalance
     Align = alClient
     DataSource = dsDATA
     Groups = <>
-    TabOrder = 5
+    TabOrder = 1
     object cxDBPivotGrid1D: TcxDBPivotGridField
       Area = faColumn
       AreaIndex = 0
@@ -83,11 +83,7 @@ inherited fmBalance: TfmBalance
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

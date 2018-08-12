@@ -5,11 +5,12 @@ inherited fmDocInOutEdit: TfmDocInOutEdit
   ClientWidth = 575
   OnCreate = FormCreate
   ExplicitWidth = 581
-  ExplicitHeight = 440
+  ExplicitHeight = 441
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 575
+    ExplicitWidth = 575
   end
   object Tabs: TcxTabControl [1]
     Left = 0
@@ -17,7 +18,7 @@ inherited fmDocInOutEdit: TfmDocInOutEdit
     Width = 575
     Height = 381
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     Properties.CustomButtons.Buttons = <>
     Properties.TabIndex = 0
     Properties.Tabs.Strings = (

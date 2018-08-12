@@ -12,13 +12,8 @@ uses
   cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
   cxGrid, cxCalendar, Menus, StdCtrls, cxButtons, FIBQuery, pFIBQuery,
   cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, ExtCtrls, cxRadioGroup,
-  u_frameJournal, cxNavigator, dxBevel, dxSkinsCore, dxSkinBlack, dxSkinBlue,
-  dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue, dxSkinsdxBarPainter, dxSkinscxPCPainter, FIBDatabase,
-  pFIBDatabase;
+  u_frameJournal, cxNavigator, dxBevel, FIBDatabase,
+  pFIBDatabase, cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TfmRouteCardChanges = class(TfmModal)

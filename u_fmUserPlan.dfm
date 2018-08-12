@@ -3,14 +3,13 @@ inherited fmUserPlan: TfmUserPlan
   ClientHeight = 653
   ClientWidth = 1172
   OnCreate = FormCreate
-  ExplicitTop = -6
   ExplicitWidth = 1188
-  ExplicitHeight = 691
+  ExplicitHeight = 692
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 1172
-    ExplicitWidth = 1105
+    ExplicitWidth = 1172
   end
   object Scheduler: TcxScheduler [1]
     Left = 0
@@ -62,7 +61,6 @@ inherited fmUserPlan: TfmUserPlan
     OnGetEventModernStyleHintInfo = SchedulerGetEventModernStyleHintInfo
     OnViewTypeChanged = SchedulerViewTypeChanged
     ExplicitTop = 37
-    Selection = 1
     Splitters = {
       000000007D0000008F000000820000008F00000000000000940000006E020000}
     StoredClientBounds = {0000000000000000940400006E020000}
@@ -247,13 +245,10 @@ inherited fmUserPlan: TfmUserPlan
             item
             end>
           Properties.OnChange = cgResourceFilterPropertiesChange
-          Style.Color = clBtnFace
           TabOrder = 1
           ExplicitLeft = 24
           ExplicitTop = 40
-          ExplicitWidth = 185
-          ExplicitHeight = 105
-          Height = 173
+          Height = 171
           Width = 122
         end
       end

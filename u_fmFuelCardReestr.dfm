@@ -1,7 +1,7 @@
 inherited fmFuelCardReestr: TfmFuelCardReestr
   Caption = #1056#1077#1077#1089#1090#1088' '#1090#1086#1087#1083#1080#1074#1085#1099#1093' '#1082#1072#1088#1090
   ClientHeight = 368
-  ExplicitHeight = 406
+  ExplicitHeight = 407
   PixelsPerInch = 96
   TextHeight = 13
   object cxGrid1: TcxGrid [1]
@@ -10,7 +10,7 @@ inherited fmFuelCardReestr: TfmFuelCardReestr
     Width = 635
     Height = 337
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object Grid1DBTableView: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsDATA
@@ -93,11 +93,7 @@ inherited fmFuelCardReestr: TfmFuelCardReestr
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

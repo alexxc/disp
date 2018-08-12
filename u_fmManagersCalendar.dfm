@@ -5,7 +5,7 @@ inherited fmManagersCalendar: TfmManagersCalendar
   ClientHeight = 723
   ClientWidth = 929
   ExplicitWidth = 945
-  ExplicitHeight = 761
+  ExplicitHeight = 762
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -18,7 +18,7 @@ inherited fmManagersCalendar: TfmManagersCalendar
     Width = 929
     Height = 692
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     Properties.ActivePage = cxTabSheet2
     Properties.CustomButtons.Buttons = <>
     ClientRectBottom = 686
@@ -164,6 +164,9 @@ inherited fmManagersCalendar: TfmManagersCalendar
           Align = alTop
           Caption = #1044#1072#1090#1072
           TabOrder = 1
+          ExplicitLeft = 2
+          ExplicitTop = 137
+          ExplicitWidth = 293
           Height = 120
           Width = 291
           object DATE_TYPE_1: TcxRadioButton
@@ -288,11 +291,7 @@ inherited fmManagersCalendar: TfmManagersCalendar
     Top = 168
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

@@ -4,13 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmModal, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, cxGraphics, cxControls,
-  cxLookAndFeels, cxLookAndFeelPainters, dxBarBuiltInMenu, cxContainer, cxEdit,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmModal, dxBarBuiltInMenu, cxContainer, cxEdit,
   cxTextEdit, cxMaskEdit, cxDropDownEdit, cxImageComboBox, cxDBEdit, cxLabel,
   cxPC, dxBar, cxClasses, FIBDatabase, pFIBDatabase, cxButtonEdit, cxCalendar,
   Data.DB, FIBDataSet, pFIBDataSet, cxLookupEdit, cxDBLookupEdit,
@@ -19,7 +13,8 @@ uses
   cxDataControllerConditionalFormattingRulesManagerDialog, cxDBData,
   cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridCustomView,
   cxGrid, dxTokenEdit, Vcl.ComCtrls, cxListView, FIBQuery, pFIBQuery,
-  cxGridLevel, cxCurrencyEdit, cxGroupBox;
+  cxGridLevel, cxCurrencyEdit, cxGroupBox, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters;
 
 type
   TfmDocInOutEdit = class(TfmModal)

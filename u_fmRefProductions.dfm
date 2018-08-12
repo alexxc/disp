@@ -8,7 +8,7 @@ inherited fmRefProductions: TfmRefProductions
     Width = 635
     Height = 306
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsDATA
@@ -40,11 +40,7 @@ inherited fmRefProductions: TfmRefProductions
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

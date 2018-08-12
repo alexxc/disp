@@ -3,7 +3,7 @@ inherited fmAutoDrivers: TfmAutoDrivers
   ClientHeight = 416
   ClientWidth = 1012
   ExplicitWidth = 1028
-  ExplicitHeight = 454
+  ExplicitHeight = 455
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmAutoDrivers: TfmAutoDrivers
     Width = 1012
     Height = 385
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridDBTableView1: TcxGridDBTableView
       OnDblClick = GridDBTableView1DblClick
       Navigator.Buttons.CustomButtons = <>
@@ -85,11 +85,7 @@ inherited fmAutoDrivers: TfmAutoDrivers
   inherited BM: TdxBarManager
     Left = 160
     Top = 112
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

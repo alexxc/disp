@@ -9,12 +9,7 @@ uses
   cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData,
   cxFilter, cxData, cxDataStorage, cxEdit, cxDBData, cxTextEdit,
   cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxNavigator, cxImageComboBox, cxMemo,
+  cxNavigator, cxImageComboBox, cxMemo,
   FIBQuery, pFIBQuery, cxGridCustomView, cxGrid, FIBDatabase, pFIBDatabase,
   cxDataControllerConditionalFormattingRulesManagerDialog;
 

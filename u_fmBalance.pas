@@ -6,13 +6,8 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_fmMDIChild, dxBar, cxClasses, u_DM, DB, FIBDataSet, pFIBDataSet,
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxCustomData,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, cxStyles, cxEdit, cxCustomPivotGrid, cxDBPivotGrid,
-  FIBDatabase, pFIBDatabase;
+  cxStyles, cxEdit, cxCustomPivotGrid, cxDBPivotGrid,
+  FIBDatabase, pFIBDatabase, dxBarExtItems;
 
 type
   TfmBalance = class(TfmMDIChild)

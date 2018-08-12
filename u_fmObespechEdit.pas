@@ -8,12 +8,7 @@ uses
   cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, cxLabel,
   cxTextEdit, cxMaskEdit, cxDropDownEdit, cxCalendar, cxDBEdit, cxLookupEdit,
   cxDBLookupEdit, cxDBLookupComboBox, cxCurrencyEdit, cxMemo, FIBDataSet,
-  dxSkinsdxBarPainter, FIBDatabase, pFIBDatabase, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, Vcl.Menus,
+  dxSkinsdxBarPainter, FIBDatabase, pFIBDatabase, Vcl.Menus,
   Vcl.StdCtrls, cxButtons, pFIBDataSet, DateUtils;
 
 type

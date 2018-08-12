@@ -7,7 +7,7 @@ inherited fmDocumentUpload: TfmDocumentUpload
   ClientWidth = 843
   OnCreate = FormCreate
   ExplicitWidth = 849
-  ExplicitHeight = 621
+  ExplicitHeight = 622
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -170,10 +170,9 @@ inherited fmDocumentUpload: TfmDocumentUpload
     Top = 131
     Align = alRight
     Caption = #1054#1087#1086#1074#1077#1089#1090#1080#1090#1100' '#1087#1086#1083#1100#1079#1086#1074#1072#1090#1077#1083#1103
-    TabOrder = 6
-    ExplicitLeft = 448
-    ExplicitTop = 208
-    ExplicitHeight = 321
+    TabOrder = 2
+    ExplicitLeft = -39
+    ExplicitHeight = 80
     Height = 462
     Width = 353
     object UsersList: TcxCheckListBox
@@ -196,11 +195,9 @@ inherited fmDocumentUpload: TfmDocumentUpload
     Top = 131
     Align = alClient
     Caption = #1042#1099#1073#1086#1088' '#1092#1072#1081#1083#1072
-    TabOrder = 7
+    TabOrder = 3
     ExplicitLeft = 72
     ExplicitTop = 152
-    ExplicitWidth = 369
-    ExplicitHeight = 257
     Height = 462
     Width = 490
     object Tree: TcxShellTreeView

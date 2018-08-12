@@ -8,12 +8,7 @@ uses
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxContainer,
   cxEdit, cxTextEdit, cxMaskEdit, cxLabel, cxDropDownEdit, cxImageComboBox,
   cxCalendar, cxCheckBox, cxMemo, cxGroupBox, cxCheckListBox, u_user, ComCtrls,
-  dxCore, cxDateUtils, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue, dxSkinsdxBarPainter, FIBDatabase, pFIBDatabase,
+  dxCore, cxDateUtils, FIBDatabase, pFIBDatabase,
   cxCustomListBox, dxBarExtItems;
 
 type

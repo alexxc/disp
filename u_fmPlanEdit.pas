@@ -4,12 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmModal, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxBar, cxClasses,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmModal, dxSkinXmas2008Blue, dxBar, cxClasses,
   FIBDatabase, pFIBDatabase, cxGraphics, cxControls, cxLookAndFeels,
   cxLookAndFeelPainters, cxContainer, cxEdit, cxTextEdit, cxMaskEdit,
   cxDropDownEdit, cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxLabel,
@@ -19,8 +14,7 @@ uses
   cxDataControllerConditionalFormattingRulesManagerDialog, cxDBData,
   cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridCustomView,
   cxGrid, dxBarBuiltInMenu, cxPC, cxSpinEdit, cxTimeEdit, dxWheelPicker,
-  dxNumericWheelPicker, dxDateTimeWheelPicker, dxDBDateTimeWheelPicker,
-  cxGroupBox, dxBarExtItems, cxCheckBox, Vcl.Menus, Vcl.StdCtrls, cxButtons,
+  dxNumericWheelPicker, cxGroupBox, dxBarExtItems, cxCheckBox, Vcl.Menus, Vcl.StdCtrls, cxButtons,
   Vcl.ComCtrls, dxCore, cxDateUtils, Vcl.ExtCtrls, cxDBLabel;
 
 type

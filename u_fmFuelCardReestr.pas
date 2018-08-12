@@ -7,15 +7,11 @@ uses
   Dialogs, u_fmMDIChild, dxBar, cxClasses, u_DM, DB, FIBDataSet, pFIBDataSet,
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
   cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxDBData,
-  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
-  cxGridCustomView, cxGrid, cxImageComboBox, cxMaskEdit, dxSkinsCore,
-  dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxNavigator, FIBDatabase,
-  pFIBDatabase;
+  cxGridCustomTableView, cxGridTableView, FIBDatabase,
+  pFIBDatabase, cxNavigator,
+  cxDataControllerConditionalFormattingRulesManagerDialog, cxMaskEdit,
+  cxImageComboBox, cxGridLevel, cxGridDBTableView, cxGridCustomView, cxGrid,
+  dxBarExtItems;
 
 type
   TfmFuelCardReestr = class(TfmMDIChild)

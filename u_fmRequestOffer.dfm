@@ -5,7 +5,7 @@ inherited fmRequestOffer: TfmRequestOffer
   ClientHeight = 569
   ClientWidth = 978
   ExplicitWidth = 994
-  ExplicitHeight = 607
+  ExplicitHeight = 608
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -28,6 +28,10 @@ inherited fmRequestOffer: TfmRequestOffer
     object tabMain: TcxTabSheet
       Caption = #1054#1089#1085#1086#1074#1085#1086#1077
       ImageIndex = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxGroupBox1: TcxGroupBox
         Left = 0
         Top = 137
@@ -164,6 +168,9 @@ inherited fmRequestOffer: TfmRequestOffer
           Height = 31
           Align = dalTop
           BarManager = BM
+          ExplicitLeft = 2
+          ExplicitTop = -1
+          ExplicitWidth = 966
         end
       end
       object cxGroupBox2: TcxGroupBox

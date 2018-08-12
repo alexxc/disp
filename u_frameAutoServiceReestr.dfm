@@ -18,7 +18,7 @@ object frameAutoServiceReestr: TframeAutoServiceReestr
     Width = 925
     Height = 308
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       OnDblClick = cxGrid1DBTableView1DblClick
       Navigator.Buttons.CustomButtons = <>
@@ -107,11 +107,7 @@ object frameAutoServiceReestr: TframeAutoServiceReestr
     UseSystemFont = True
     Left = 144
     Top = 96
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     object BMBar1: TdxBar
       AllowClose = False
       AllowCustomizing = False

@@ -6,17 +6,13 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_fmMDIChild, dxBar, cxClasses, cxGraphics, cxControls,
   cxLookAndFeels, cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxData, cxDataStorage, cxEdit,
+  cxData, cxDataStorage, cxEdit,
   cxNavigator, Data.DB, cxDBData, cxDBLookupComboBox, cxTextEdit,
   cxImageComboBox, cxCheckBox, dxBarBuiltInMenu, FIBDataSet, pFIBDataSet,
   cxSplitter, u_frameAutoServiceReestr, u_frameDocuments, u_frameJournal, cxPC,
   cxGridLevel, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
-  cxGridCustomView, cxGrid, FIBDatabase, pFIBDatabase;
+  cxGridCustomView, cxGrid, FIBDatabase, pFIBDatabase,
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems;
 
 type
   TfmAutomobile = class(TfmMDIChild)

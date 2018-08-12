@@ -4,18 +4,14 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, u_fmMDIChild, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue, dxSkinsdxBarPainter, cxGraphics, cxControls,
+  Dialogs, u_fmMDIChild, cxGraphics, cxControls,
   cxLookAndFeels, cxLookAndFeelPainters, cxStyles, dxSkinscxPCPainter,
   cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxNavigator, Data.DB,
   cxDBData, cxTextEdit, cxCurrencyEdit, cxImageComboBox, cxCheckBox,
   dxBarBuiltInMenu, FIBDataSet, pFIBDataSet, cxSplitter, u_frameJournal, cxPC,
   cxGridLevel, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
-  cxClasses, cxGridCustomView, cxGrid, dxBar, FIBDatabase, pFIBDatabase;
+  cxClasses, cxGridCustomView, cxGrid, dxBar, FIBDatabase, pFIBDatabase,
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems;
 
 type
   TfmDebitorReport = class(TfmMDIChild)

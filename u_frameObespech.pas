@@ -4,13 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, 
-  Dialogs, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin,
-  dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, cxClasses, dxBar, DB, FIBDataSet, pFIBDataSet,
+  Dialogs, cxClasses, dxBar, DB, FIBDataSet, pFIBDataSet,
   u_DM, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
   cxStyles, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
   cxDataStorage, cxEdit, cxNavigator, cxDBData, cxImageComboBox,

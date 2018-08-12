@@ -6,12 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_DM, dxBar, cxClasses, cxPCdxBarPopupMenu, cxGraphics, cxControls,
   cxLookAndFeels, cxLookAndFeelPainters, FIBQuery, pFIBQuery, u_fmForm,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinsdxBarPainter,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSevenClassic, dxSkinXmas2008Blue, dxSkinCaramel,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, FIBDatabase,
+  FIBDatabase,
   pFIBDatabase, dxBarExtItems;
 
 type

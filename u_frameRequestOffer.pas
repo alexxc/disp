@@ -4,14 +4,10 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, 
-  Dialogs, u_DM, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
+  Dialogs, u_DM,
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
-  dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint,
-  dxSkinXmas2008Blue, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
-  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, dxSkinsdxBarPainter,
+  cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData,
   FIBDataSet, pFIBDataSet, dxBar, cxClasses, cxGridLevel, cxGridCustomTableView,
   cxGridTableView, cxGridDBTableView, cxGridCustomView, cxGrid, FIBQuery,
   pFIBQuery, cxTextEdit, cxDataControllerConditionalFormattingRulesManagerDialog;

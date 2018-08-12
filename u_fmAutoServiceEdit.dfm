@@ -3,7 +3,7 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
   ClientHeight = 395
   ClientWidth = 1066
   ExplicitWidth = 1082
-  ExplicitHeight = 433
+  ExplicitHeight = 434
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -15,7 +15,7 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
     Top = 31
     Align = alClient
     PanelStyle.Active = True
-    TabOrder = 5
+    TabOrder = 1
     Height = 364
     Width = 1066
     object cxGroupBox2: TcxGroupBox
@@ -24,6 +24,9 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
       Align = alLeft
       Caption = ' '#1054#1089#1085#1086#1074#1085#1099#1077' '#1076#1072#1085#1085#1099#1077' '
       TabOrder = 0
+      ExplicitLeft = 2
+      ExplicitTop = 2
+      ExplicitHeight = 166
       Height = 358
       Width = 505
       object cxLabel2: TcxLabel
@@ -149,6 +152,10 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
       Align = alClient
       Caption = ' '#1046#1091#1088#1085#1072#1083'  '
       TabOrder = 1
+      ExplicitLeft = 507
+      ExplicitTop = 2
+      ExplicitWidth = 557
+      ExplicitHeight = 166
       Height = 358
       Width = 555
       inline frameJournal: TframeJournal
@@ -191,11 +198,7 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
           ExplicitWidth = 553
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BarJournal: TdxBar
             ItemLinks = <
               item
@@ -221,11 +224,7 @@ inherited fmAutoServiceEdit: TfmAutoServiceEdit
   inherited BM: TdxBarManager
     Left = 320
     Top = 0
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited bbRefresh: TdxBarButton
       OnClick = bbRefreshClick
     end

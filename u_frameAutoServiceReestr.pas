@@ -8,13 +8,8 @@ uses
   cxLookAndFeelPainters, cxStyles, cxCustomData, cxFilter, cxData,
   cxDataStorage, cxEdit, cxNavigator, DB, cxDBData, cxGridLevel,
   cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
-  cxGrid, FIBDataSet, pFIBDataSet, cxImageComboBox, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinscxPCPainter,
-  dxSkinsdxBarPainter, FIBDatabase, pFIBDatabase;
+  cxGrid, FIBDataSet, pFIBDataSet, cxImageComboBox, FIBDatabase, pFIBDatabase,
+  cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TframeAutoServiceReestr = class(TFrame)

@@ -8,7 +8,7 @@ inherited fmUser: TfmUser
   ClientWidth = 894
   OnCreate = FormCreate
   ExplicitWidth = 900
-  ExplicitHeight = 667
+  ExplicitHeight = 668
   PixelsPerInch = 96
   TextHeight = 13
   object Pages: TcxPageControl [0]
@@ -365,6 +365,10 @@ inherited fmUser: TfmUser
     object cxTabSheet2: TcxTabSheet
       Caption = #1055#1088#1072#1074#1072
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object ROLES: TcxCheckGroup
         Left = 11
         Top = 23
@@ -454,23 +458,17 @@ inherited fmUser: TfmUser
     ExplicitWidth = 894
   end
   inherited trRead: TpFIBTransaction
-    DefaultDatabase = fmUsers.FB
     Left = 608
     Top = 496
   end
   inherited trWrite: TpFIBTransaction
-    DefaultDatabase = fmUsers.FB
     Left = 664
     Top = 496
   end
   inherited BM: TdxBarManager
     Left = 608
     Top = 432
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item
@@ -515,7 +513,7 @@ inherited fmUser: TfmUser
       '  REF_EMPLOE E'
       ') where NAME<>'#39#39' order by name')
     Transaction = trRead
-    Database = fmUsers.FB
+    Database = DM.FB
     UpdateTransaction = trWrite
     RefreshTransactionKind = tkUpdateTransaction
     DefaultFormats.DateTimeDisplayFormat = 'dd.mm.yyyy hh:mm'
@@ -650,7 +648,7 @@ inherited fmUser: TfmUser
       'where'
       '  U.ID=coalesce(:ID, 2)')
     Transaction = trRead
-    Database = fmUsers.FB
+    Database = DM.FB
     UpdateTransaction = trWrite
     RefreshTransactionKind = tkUpdateTransaction
     DefaultFormats.DateTimeDisplayFormat = 'dd.mm.yyyy hh:mm'
@@ -667,7 +665,7 @@ inherited fmUser: TfmUser
     SelectSQL.Strings = (
       'select R.CODE, R.NAME from REF_REGIONS R')
     Transaction = trRead
-    Database = fmUsers.FB
+    Database = DM.FB
     UpdateTransaction = trWrite
     RefreshTransactionKind = tkUpdateTransaction
     DefaultFormats.DateTimeDisplayFormat = 'dd.mm.yyyy hh:mm'
@@ -689,7 +687,7 @@ inherited fmUser: TfmUser
       '  ((U.ID<>:USER_ID) or (:USER_ID is null)) and U.IS_ACTIVE=1'
       'order by U.NAME')
     Transaction = trRead
-    Database = fmUsers.FB
+    Database = DM.FB
     UpdateTransaction = trWrite
     RefreshTransactionKind = tkUpdateTransaction
     DefaultFormats.DateTimeDisplayFormat = 'dd.mm.yyyy hh:mm'

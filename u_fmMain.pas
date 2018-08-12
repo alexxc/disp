@@ -10,14 +10,13 @@ uses
   cxContainer, cxEdit, cxProgressBar, u_fmMDIChild, ExtCtrls,
   dxGDIPlusClasses, StdCtrls, cxButtons, cxLabel,
   dxBarBuiltInMenu, dxCustomTileControl, dxTileControl, dxSkinsCore,
-  System.ImageList, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxStatusBarPainter, dxSkinsdxBarPainter, dxSkinscxPCPainter,
-  FIBDatabase, pFIBDatabase, FIBQuery, pFIBQuery, cxImage, Vcl.CheckLst,
-  dxRibbonCustomizationForm, dxRibbon;
+  System.ImageList, dxSkinCoffee,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2010Silver, dxSkinSpringTime, dxSkinSummer2008,
+  dxSkinValentine, dxSkinXmas2008Blue,
+  dxSkinsDefaultPainters,
+  FIBDatabase, pFIBDatabase,
+  FIBQuery, pFIBQuery, cxImage;
 
 type
   TfmMain = class(TForm)

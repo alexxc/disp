@@ -6,7 +6,7 @@ inherited fmPolis: TfmPolis
   Position = poOwnerFormCenter
   OnCreate = FormCreate
   ExplicitWidth = 257
-  ExplicitHeight = 323
+  ExplicitHeight = 324
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -18,7 +18,7 @@ inherited fmPolis: TfmPolis
     Top = 31
     Align = alClient
     PanelStyle.Active = True
-    TabOrder = 5
+    TabOrder = 1
     Height = 264
     Width = 251
     object cxLabel1: TcxLabel
@@ -143,11 +143,7 @@ inherited fmPolis: TfmPolis
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited bbClose: TdxBarButton
       PaintStyle = psStandard
     end

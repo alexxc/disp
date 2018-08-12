@@ -6,19 +6,15 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, u_fmModal, dxBar, cxClasses, cxGraphics, cxControls, cxLookAndFeels,
   cxLookAndFeelPainters, cxContainer, cxEdit, cxLabel, cxTextEdit, cxDBEdit,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, dxBarBuiltInMenu, Vcl.Menus,
-  cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxNavigator, Data.DB,
+  Data.DB,
   cxDBData, FIBQuery, pFIBQuery, FIBDataSet, pFIBDataSet, u_frameJournal,
   u_frameDocuments, cxGridLevel, cxGridCustomTableView, cxGridTableView,
   cxGridDBTableView, cxGridCustomView, cxGrid, Vcl.StdCtrls, cxButtons,
   cxListBox, cxImageComboBox, cxCheckBox, cxMaskEdit, cxDropDownEdit,
   cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, u_frameAutoServiceReestr,
-  cxGroupBox, cxPC, FIBDatabase, pFIBDatabase;
+  cxGroupBox, cxPC, FIBDatabase, pFIBDatabase, dxBarBuiltInMenu, Vcl.Menus,
+  cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxNavigator,
+  cxDataControllerConditionalFormattingRulesManagerDialog, cxCustomListBox;
 
 type
   TfmAutoEdit = class(TfmModal)

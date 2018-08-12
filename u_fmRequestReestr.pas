@@ -11,13 +11,9 @@ uses
   cxGridCustomView, cxGrid, cxCurrencyEdit, cxPCdxBarPopupMenu, cxPC, cxSplitter,
   u_frameJournal, cxDBLookupComboBox, cxSpinEdit, cxImageComboBox, ExtCtrls,
   cxLabel, cxCalendar, cxMemo, cxNavigator, dxBarBuiltInMenu, u_frameDocuments,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, cxTextEdit, FIBDatabase, pFIBDatabase,
-  FIBQuery, pFIBQuery, cxDataControllerConditionalFormattingRulesManagerDialog;
+  cxTextEdit, FIBDatabase, pFIBDatabase,
+  FIBQuery, pFIBQuery, cxDataControllerConditionalFormattingRulesManagerDialog,
+  dxBarExtItems;
 
 type
   TfmRequestReestr = class(TfmMDIChild)

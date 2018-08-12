@@ -4,17 +4,13 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmMDIChild, dxSkinsCore, dxSkinBlack,
-  dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  dxBar, cxClasses, FIBDatabase, pFIBDatabase, Data.DB, FIBDataSet, pFIBDataSet,
-  cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, u_fmMDIChild, cxStyles,
   dxSkinscxPCPainter, cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit,
   cxNavigator, cxDBData, cxGridCustomTableView, cxGridTableView,
-  cxGridDBTableView, cxGridLevel, cxGridCustomView, cxGrid;
+  cxGridDBTableView, cxGridLevel, cxGridCustomView, cxGrid, cxGraphics,
+  cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxDataControllerConditionalFormattingRulesManagerDialog, Data.DB, FIBDataSet,
+  pFIBDataSet, dxBar, dxBarExtItems, cxClasses, FIBDatabase, pFIBDatabase;
 
 type
   TfmActTemplates = class(TfmMDIChild)

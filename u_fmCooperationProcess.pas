@@ -4,18 +4,13 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, u_DM, u_fmModal, cxGraphics, cxControls, cxLookAndFeels, dxSkinsCore,
-  dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  cxLookAndFeelPainters, cxStyles, dxSkinscxPCPainter, cxCustomData, cxFilter,
+  Dialogs, u_DM, u_fmModal, cxGraphics, cxControls, cxLookAndFeels, cxCustomData, cxFilter,
   cxData, cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData,
   cxImageComboBox, FIBQuery, pFIBQuery, dxmdaset, FIBDataSet, pFIBDataSet,
   cxGridLevel, cxGridCustomTableView, cxGridTableView, cxGridBandedTableView,
   cxGridDBBandedTableView, cxClasses, cxGridCustomView, cxGrid, dxBar,
-  FIBDatabase, pFIBDatabase;
+  FIBDatabase, pFIBDatabase, cxLookAndFeelPainters, cxStyles,
+  cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TfmCooperationProcess = class(TfmModal)

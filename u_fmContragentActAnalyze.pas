@@ -4,15 +4,10 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, u_fmMDIChild, cxGraphics, cxControls, cxLookAndFeels, dxSkinsCore,
-  dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  cxLookAndFeelPainters, cxClasses, cxCustomData, cxStyles, cxEdit,
+  Dialogs, u_fmMDIChild, cxGraphics, cxControls, cxLookAndFeels, cxClasses, cxCustomData, cxStyles, cxEdit,
   cxCurrencyEdit, Data.DB, FIBDataSet, pFIBDataSet, cxCustomPivotGrid,
-  cxDBPivotGrid, dxBar, FIBDatabase, pFIBDatabase;
+  cxDBPivotGrid, dxBar, FIBDatabase, pFIBDatabase, cxLookAndFeelPainters,
+  dxBarExtItems;
 
 type
   TfmContragentActAnalyze = class(TfmMDIChild)

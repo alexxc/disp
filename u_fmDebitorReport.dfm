@@ -3,7 +3,7 @@ inherited fmDebitorReport: TfmDebitorReport
   ClientHeight = 697
   ClientWidth = 1187
   ExplicitWidth = 1203
-  ExplicitHeight = 735
+  ExplicitHeight = 736
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmDebitorReport: TfmDebitorReport
     Width = 1187
     Height = 452
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object GridView: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       Navigator.Buttons.First.Visible = True
@@ -247,7 +247,7 @@ inherited fmDebitorReport: TfmDebitorReport
     Width = 1187
     Height = 209
     Align = alBottom
-    TabOrder = 6
+    TabOrder = 2
     Properties.ActivePage = cxTabSheet1
     Properties.CustomButtons.Buttons = <>
     ClientRectBottom = 203
@@ -431,11 +431,7 @@ inherited fmDebitorReport: TfmDebitorReport
           ExplicitWidth = 1179
         end
         inherited BM: TdxBarManager
-          DockControlHeights = (
-            0
-            0
-            0
-            0)
+          PixelsPerInch = 96
           inherited BarJournal: TdxBar
             ItemLinks = <
               item
@@ -462,11 +458,7 @@ inherited fmDebitorReport: TfmDebitorReport
     ExplicitWidth = 5
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

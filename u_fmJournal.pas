@@ -10,13 +10,7 @@ uses
   cxGridLevel, cxGridCustomView, cxGridCustomTableView, cxGridTableView,
   cxGridDBTableView, cxGrid, cxMemo, cxImageComboBox, cxCalendar, cxTextEdit,
   dxBarExtItems,
-  DateUtils, cxNavigator, dxSkinsCore, dxSkinBlack, dxSkinBlue,
-  dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
-  dxSkinDevExpressStyle, dxSkinHighContrast, dxSkinOffice2010Black,
-  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinPumpkin,
-  dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, FIBDatabase, pFIBDatabase,
+  DateUtils, cxNavigator, FIBDatabase, pFIBDatabase,
   cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type

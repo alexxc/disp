@@ -13,19 +13,12 @@ uses
   cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
   cxGridCustomView, cxGrid, cxCurrencyEdit, cxSpinEdit, cxDBLookupComboBox,
   FIBDataSet, pFIBDataSet, cxMemo, cxRadioGroup, FIBDatabase, pFIBDatabase,
-  dxBarBuiltInMenu, cxPC, dxBevel, ExtCtrls, dxSkinsCore,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter,
-
-  dxSkinBlack, dxSkinBlue, dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSevenClassic, dxSkinXmas2008Blue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinWhiteprint, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine,
-
+  dxBarBuiltInMenu, cxPC, dxBevel, ExtCtrls,
   u_frameJournal, dxCore, dxCoreClasses,
   dxHashUtils,
   cxInplaceContainer,
-  cxCheckBox, u_frameDocuments, FIBQuery, pFIBQuery, u_frameObespech;
+  cxCheckBox, u_frameDocuments, FIBQuery, pFIBQuery, u_frameObespech,
+  cxDataControllerConditionalFormattingRulesManagerDialog;
 
 type
   TfmTender = class(TfmModal)

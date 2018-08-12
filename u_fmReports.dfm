@@ -4,7 +4,7 @@ inherited fmReports: TfmReports
   ClientWidth = 877
   OnCreate = FormCreate
   ExplicitWidth = 893
-  ExplicitHeight = 367
+  ExplicitHeight = 368
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -17,7 +17,7 @@ inherited fmReports: TfmReports
     Width = 877
     Height = 298
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       OnDblClick = cxGrid1DBTableView1DblClick
       Navigator.Buttons.CustomButtons = <>
@@ -71,11 +71,7 @@ inherited fmReports: TfmReports
     end
   end
   inherited BM: TdxBarManager
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

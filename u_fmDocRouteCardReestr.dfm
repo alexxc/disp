@@ -6,7 +6,7 @@ inherited fmDocRouteCardReestr: TfmDocRouteCardReestr
   ClientWidth = 1348
   OnCreate = FormCreate
   ExplicitWidth = 1364
-  ExplicitHeight = 619
+  ExplicitHeight = 620
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -292,6 +292,9 @@ inherited fmDocRouteCardReestr: TfmDocRouteCardReestr
       Height = 31
       Align = dalTop
       BarManager = BM
+      ExplicitLeft = 2
+      ExplicitTop = 2
+      ExplicitWidth = 541
     end
   end
   object pagesDetail: TcxPageControl [3]
@@ -648,9 +651,6 @@ inherited fmDocRouteCardReestr: TfmDocRouteCardReestr
       UseRestSpace = True
       Visible = True
       WholeRow = True
-    end
-    inherited bbDateEnd: TdxBarDateCombo
-      OnChange = bbDateStartChange
     end
     object bbRouteCardDelta: TdxBarButton
       Caption = #1042#1099#1087#1086#1083#1085#1077#1085#1080#1077

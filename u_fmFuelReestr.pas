@@ -7,12 +7,7 @@ uses
   Dialogs, u_fmMDIChild, dxBar, cxClasses, cxGraphics, cxControls,
   cxLookAndFeels, cxLookAndFeelPainters, Menus, cxGridDBTableView, cxGrid,
   dxLayoutContainer, dxNavBar, dxNavBarCollns, dxNavBarBase, cxGridCardView,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, dxBarBuiltInMenu, cxStyles,
+  cxStyles,
   cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxNavigator, Data.DB,
   cxDBData, cxTextEdit, cxImageComboBox, cxDropDownEdit, cxDBLookupComboBox,
   cxContainer, cxCurrencyEdit, FIBQuery, pFIBQuery, dxmdaset, FIBDataSet,
@@ -20,7 +15,7 @@ uses
   Vcl.StdCtrls, cxButtons, cxGroupBox, cxGridLevel, cxGridCustomTableView,
   cxGridTableView, cxGridBandedTableView, cxGridDBBandedTableView,
   cxGridCustomView, cxPC, FIBDatabase, pFIBDatabase,
-  cxDataControllerConditionalFormattingRulesManagerDialog;
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarBuiltInMenu;
 
 type
   TfmFuelReestr = class(TfmMDIChild)

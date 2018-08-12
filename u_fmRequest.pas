@@ -13,12 +13,7 @@ uses
   cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
   cxGrid, FIBDatabase, pFIBDatabase, cxSpinEdit, cxCurrencyEdit, FIBQuery,
   pFIBQuery, cxCheckBox, cxDBExtLookupComboBox, Menus, StdCtrls, cxButtons,
-  dxBarBuiltInMenu, cxNavigator, dxSkinsCore, dxSkinBlack, dxSkinBlue,
-  dxSkinsdxBarPainter, dxSkinscxPCPainter, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
+  dxBarBuiltInMenu, cxNavigator, 
   u_frameObespech, u_frameRequestOffer, dxCheckGroupBox, dxDBCheckGroupBox,
   cxDataControllerConditionalFormattingRulesManagerDialog;
 

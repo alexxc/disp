@@ -3,7 +3,7 @@ inherited fmObespechReestr: TfmObespechReestr
   ClientHeight = 555
   ClientWidth = 1085
   ExplicitWidth = 1101
-  ExplicitHeight = 593
+  ExplicitHeight = 594
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -16,7 +16,7 @@ inherited fmObespechReestr: TfmObespechReestr
     Width = 1085
     Height = 468
     Align = alClient
-    TabOrder = 5
+    TabOrder = 1
     ExplicitTop = 37
     ExplicitHeight = 411
     object cxGrid1DBTableView1: TcxGridDBTableView
@@ -149,7 +149,7 @@ inherited fmObespechReestr: TfmObespechReestr
     Align = alBottom
     DataBinding.DataField = 'DESCRIPTION'
     DataBinding.DataSource = dsDATA
-    TabOrder = 6
+    TabOrder = 2
     Height = 51
     Width = 1085
   end
@@ -162,6 +162,7 @@ inherited fmObespechReestr: TfmObespechReestr
     AlignSplitter = salBottom
     Control = DESCRIPTION
     ExplicitTop = 496
+    ExplicitWidth = 5
   end
   inherited trRead: TpFIBTransaction
     Left = 200

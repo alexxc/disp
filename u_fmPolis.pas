@@ -8,12 +8,7 @@ uses
   cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, DB, FIBDataSet,
   pFIBDataSet, cxLabel, cxTextEdit, cxDBEdit, cxMaskEdit, cxDropDownEdit,
   cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxCalendar, cxMemo,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008,
-  dxSkinTheAsphaltWorld, dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue,
-  dxSkinsdxBarPainter, cxGroupBox, FIBDatabase, pFIBDatabase;
+  cxGroupBox, FIBDatabase, pFIBDatabase;
 
 type
   TfmPolis = class(TfmModal)

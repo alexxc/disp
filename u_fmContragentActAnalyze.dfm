@@ -3,7 +3,7 @@ inherited fmContragentActAnalyze: TfmContragentActAnalyze
   ClientHeight = 739
   ClientWidth = 1474
   ExplicitWidth = 1490
-  ExplicitHeight = 777
+  ExplicitHeight = 778
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -37,7 +37,7 @@ inherited fmContragentActAnalyze: TfmContragentActAnalyze
     OptionsView.RowGrandTotalText = #1048#1058#1054#1043#1054
     OptionsView.TotalsForSingleValues = True
     Styles.Total = DM.cxStyleNormal
-    TabOrder = 5
+    TabOrder = 1
     object cxDBPivotGrid1DOC_DT: TcxDBPivotGridField
       Area = faColumn
       AreaIndex = 0
@@ -116,11 +116,7 @@ inherited fmContragentActAnalyze: TfmContragentActAnalyze
   inherited BM: TdxBarManager
     Left = 224
     Top = 40
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
   end
   object DATA: TpFIBDataSet
     SelectSQL.Strings = (

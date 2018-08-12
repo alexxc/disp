@@ -7,7 +7,7 @@ inherited fmContragents: TfmContragents
   Color = clWindow
   Ctl3D = False
   ExplicitWidth = 1059
-  ExplicitHeight = 780
+  ExplicitHeight = 781
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -24,6 +24,7 @@ inherited fmContragents: TfmContragents
     Control = Pages
     OnAfterOpen = DetailSplitterAfterOpen
     OnAfterClose = DetailSplitterAfterClose
+    ExplicitWidth = 5
   end
   object PanelTOP: TPanel [2]
     Left = 0

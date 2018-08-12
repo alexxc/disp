@@ -8,14 +8,9 @@ uses
   cxContainer, cxEdit, cxCheckBox, cxImageComboBox, cxMaskEdit, cxDropDownEdit,
   cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxTextEdit, cxLabel,
   u_DM, DB, FIBDataSet, pFIBDataSet, Menus, StdCtrls, cxButtons,
-  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee,
-  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
-  dxSkinHighContrast, dxSkinOffice2010Black, dxSkinOffice2010Blue,
-  dxSkinOffice2010Silver, dxSkinPumpkin, dxSkinSpringTime,
-  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinValentine,
-  dxSkinWhiteprint, dxSkinXmas2008Blue, FIBDatabase, pFIBDatabase, cxDBEdit,
+  FIBDatabase, pFIBDatabase, cxDBEdit,
   cxGroupBox, dxSkinscxPCPainter, dxBarBuiltInMenu, cxPC, u_fmModal,
-  dxSkinsdxBarPainter, dxBar, cxClasses, cxCheckGroup;
+  dxBar, cxClasses, cxCheckGroup;
 
 type
   TfmUser = class(TfmModal)

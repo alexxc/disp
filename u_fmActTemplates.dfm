@@ -6,6 +6,7 @@ inherited fmActTemplates: TfmActTemplates
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
     Width = 894
+    ExplicitWidth = 894
   end
   object cxGrid1: TcxGrid [1]
     Left = 0
@@ -13,9 +14,7 @@ inherited fmActTemplates: TfmActTemplates
     Width = 894
     Height = 306
     Align = alClient
-    TabOrder = 5
-    ExplicitTop = 37
-    ExplicitWidth = 635
+    TabOrder = 1
     object cxGrid1DBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = dsDATA
@@ -65,11 +64,7 @@ inherited fmActTemplates: TfmActTemplates
   inherited BM: TdxBarManager
     Left = 248
     Top = 136
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    PixelsPerInch = 96
     inherited BMBar: TdxBar
       ItemLinks = <
         item

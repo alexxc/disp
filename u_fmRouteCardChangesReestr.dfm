@@ -5,7 +5,7 @@ inherited fmRouteCardChangesReestr: TfmRouteCardChangesReestr
   ClientHeight = 675
   ClientWidth = 1346
   ExplicitWidth = 1362
-  ExplicitHeight = 713
+  ExplicitHeight = 714
   PixelsPerInch = 96
   TextHeight = 13
   inherited dxBarDockControl1: TdxBarDockControl
@@ -491,6 +491,10 @@ inherited fmRouteCardChangesReestr: TfmRouteCardChangesReestr
     object tabJournal: TcxTabSheet
       Caption = #1046#1091#1088#1085#1072#1083' '#1080' '#1086#1073#1088#1072#1073#1086#1090#1082#1072
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       inline frameJournal: TframeJournal
         Left = 0
         Top = 0

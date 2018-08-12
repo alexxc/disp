@@ -8,13 +8,9 @@ uses
   cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
   cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxDBData,
   cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
-  cxGridCustomView, cxGrid, dxSkinsCore, dxSkinBlack, dxSkinBlue,
-  pFIBDatabase, dxSkinCaramel, dxSkinCoffee, dxSkinDarkSide,
-  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinHighContrast,
-  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
-  dxSkinPumpkin, dxSkinSpringTime, dxSkinSummer2008, dxSkinTheAsphaltWorld,
-  dxSkinValentine, dxSkinWhiteprint, dxSkinXmas2008Blue, dxSkinsdxBarPainter,
-  dxSkinscxPCPainter, cxNavigator, FIBDatabase;
+  cxGridCustomView, cxGrid, FIBDatabase, cxNavigator,
+  cxDataControllerConditionalFormattingRulesManagerDialog, dxBarExtItems,
+  pFIBDatabase;
 
 type
   TfmReports = class(TfmMDIChild)
